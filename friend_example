@@ -27,9 +27,6 @@ class c2{
 
 };
 void swap(c1 &a, c2 &b){
-    // int temp = a.val1;
-    // a.val1 = b.val2;
-    // b.val2 = temp;
     a.val1 = a.val1^b.val2;
     b.val2 = a.val1^b.val2;
     a.val1 = a.val1^b.val2;
