@@ -14,7 +14,7 @@ class Complex{
         }
 };
 
-Complex::Complex(){
+Complex::Complex(void){ //It is a default constructor 
     a = 10;
     b = 12;
 }
