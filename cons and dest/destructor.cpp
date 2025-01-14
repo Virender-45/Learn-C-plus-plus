@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int count = 0;
 
 class num{
+static int count;
     public:
         num(){
             count++;
@@ -14,7 +14,7 @@ class num{
             count--;
         }
 };
-
+int num::count = 0;
 int main(){
     cout<<"We are inside a main function"<<endl;
     cout<<"Creating first object n1"<<endl;
