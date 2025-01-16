@@ -24,6 +24,7 @@ class Derived: public Base1, public Base2{
         void show(){
             cout<<"The value of base 1 is : "<<base1int<<endl;
             cout<<"The value of base 2 is : "<<base2int<<endl;
+            cout<<"The sum of these values is : "<<base2int + base1int<<endl;
         }
 };
 
