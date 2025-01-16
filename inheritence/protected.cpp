@@ -3,19 +3,29 @@
 using namespace std;
 
 class Base{
-    protected:
-        int a;
     private:
         int b;
+    protected:
+        int a;
+    public:
+        void setData(int aData, int bData){
+            a = aData;
+            b = bData;
+        }
+        void display(){
+            cout<<"a value is : "<<a<<endl;
+            cout<<"b value is : "<<b<<endl;
+        }
 };
-class Derived: private Base{
+class Derived: public Base{
 
 };
 
 
 int main(){
     Derived obj;
-
+    obj.setData(1, 2);
+    obj.display();
 
 return 0;
 }
