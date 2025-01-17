@@ -15,7 +15,7 @@ class Employee{
 };
 
 //Derived Class //Default visibility mode is private
-class Programmer : Employee{
+class Programmer :public Employee{
     public:
         int languageCode;
         Programmer(int inpId){
