@@ -5,7 +5,6 @@ using namespace std;
 class simpleCalculator{
 protected:
     int a, b;
-
 public:
 
     void setNumbers(int, int);
