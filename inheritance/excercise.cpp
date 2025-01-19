@@ -3,7 +3,6 @@
 using namespace std;
 
 class simpleCalculator{
-protected:
     int a, b;
 public:
 
