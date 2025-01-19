@@ -7,6 +7,7 @@ protected:
     int a, b;
 
 public:
+
     void setNumbers(int, int);
     void displaySimpleMenu();
     int add(int, int);
