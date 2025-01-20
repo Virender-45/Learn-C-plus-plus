@@ -8,7 +8,8 @@ int main(){
 
     // vec.insert(vec.begin() + 2, 10);
     // vec.erase(vec.begin() + 2, vec.begin() + 4);
-    // vec.clear();
+    // vec.clear();  it erase the data but capacity remains
+    // vec.empty();
 
     //Print with foreach loop
     for(int i : vec){
