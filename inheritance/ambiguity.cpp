@@ -17,10 +17,16 @@ class Base2{
 };
 
 class Derived : public Base1, public Base2{
-  
+    int a;
+    public:
+        void greet(){
+          base1::greet();
+        }
 };
 
 int main(){
+  Derived obj;
+  obj.greet();
 
   return 0;
 }
