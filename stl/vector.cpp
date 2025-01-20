@@ -8,6 +8,7 @@ int main(){
 
     // vec.insert(vec.begin() + 2, 10);
     // vec.erase(vec.begin() + 2, vec.begin() + 4);
+    // vec.clear();
 
     //Print with foreach loop
     for(int i : vec){
