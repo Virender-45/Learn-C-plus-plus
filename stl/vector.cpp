@@ -6,6 +6,9 @@ using namespace std;
 int main(){
     vector<int> vec = {1, 2, 3, 4, 5};
 
+    // vec.insert(vec.begin() + 2, 10);
+    // vec.erase(vec.begin() + 2, vec.begin() + 4);
+
     //Print with foreach loop
     for(int i : vec){
         cout<< i <<" ";
