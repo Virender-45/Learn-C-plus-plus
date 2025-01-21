@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    list<int> l = {1, 2, 3, 4, 5};
+    list<int> l = {1, 2, 3, 4, 5};    //Inititialize as doubly linked list in memory
 
     // l.push_back(3);
     // l.push_back(4);
