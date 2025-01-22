@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    stack<int> s;
+    stack<int> s;    //Uses LIFO
 
     s.push(10);
     s.push(11);
