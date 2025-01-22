@@ -24,5 +24,15 @@ int main()
         cout<< val <<" ";
     }
 
+    //Add Permutation
+
+    string s = "abc";
+
+
+    for(int i = 0; i < 100; i++){
+    next_permutation(s.begin(), s.end());
+        cout<< s << "\t";
+    }
+    
     return 0;
 }
