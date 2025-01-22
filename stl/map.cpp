@@ -4,13 +4,14 @@
 #include <thread>
 #include <queue>
 #include <map>
+#include <unordered_map>
 
 using namespace std;
 
 
 int main(){
     //(key, value) Key is always unique
-    /*map<string, int> m;
+    /*map<string, int> m;       //Store data in order way
 
     m["Tv"] = 200;
     m["Laptop"] = 150;
@@ -39,7 +40,7 @@ int main(){
     */
 
     //Multimap
-
+/*
     multimap<string, int> mm;   //Can insert multiple vales with same key
 
     mm.emplace("tv", 100);
@@ -55,6 +56,22 @@ int main(){
 
     for(auto p : mm){
         cout<< p.first<<" "<< p.second<<endl;
+    }
+    */
+
+
+   //unordered_map
+
+   unordered_map<string, int> um;   //Store data into unorder way
+
+    um["Tv"] = 200;
+    um["Laptop"] = 150;
+    um["Headphone"] = 400;
+    um["Phone"] = 300;
+    um["Watch"] = 350;
+
+    for(auto p : um){
+        cout<< p.first << " "<<p.second<<endl;
     }
 
     return 0;
