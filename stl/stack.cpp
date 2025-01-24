@@ -19,13 +19,12 @@ int main(){
     //     cout<<s.top()<< " ";
     //     s.pop();
     // }
-
+    
     stack<int> s2;
     s2.swap(s);
 
     cout<<s.size();
     cout<<s2.size();
-
 
 return 0;
 }
