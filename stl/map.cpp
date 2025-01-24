@@ -11,7 +11,7 @@ using namespace std;
 
 int main(){
     //(key, value) Key is always unique
-    /*map<string, int> m;       //Store data in order way
+    /*map<string, int> m;      //Store data in order way
 
     m["Tv"] = 200;
     m["Laptop"] = 150;
