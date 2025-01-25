@@ -9,6 +9,7 @@ int main(){
     // l.push_back(3);
     // l.push_back(4);
     // l.push_back(5);
+    // l.push_back(6);
     // l.push_front(2);
     // l.push_front(1);
 
