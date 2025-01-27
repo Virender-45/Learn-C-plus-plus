@@ -16,7 +16,7 @@ public:
 };
 
 int main(){
-    Complex c1;
+    // Complex c1;
     // Complex *ptr = &c1;
     Complex *ptr = new Complex;
 
