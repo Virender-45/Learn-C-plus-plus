@@ -21,14 +21,15 @@ public:
 
 int main()
 {
-    int p;
+    int p, i;
     float q;
-    int size = 3;
+    int size = 2;
     // int *ptr = &size;
     // int *ptr = new int[34];
     ShopItem *ptr = new ShopItem[size];
+    ShopItem *ptrTemp = ptr;
 
-    for (int i = 0; i < size; i++)
+    for (i = 0; i < size; i++)
     {
         cout << "Enter the id of item " << i + 1 << " : ";
         cin >> p;
@@ -38,10 +39,12 @@ int main()
         ptr->setData(p, q);
         ptr++;
     }
-    // for (int i = 0; i < size; i++)
-    // {
-    //     cout << "The details of item " << i + 1 << " is : " <<ptr->getData();
-    // }
+    for (i = 0; i < size; i++)
+    {
+        cout << "The details of item " << i + 1 << " is : " << endl;
+        ptrTemp->getData();
+        ptrTemp++;
+    }
 
     return 0;
 }
