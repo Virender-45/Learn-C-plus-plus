@@ -5,7 +5,6 @@ class ShopItem{
 protected:
     int id;
     float price;
-
 public:
     void setData(int a, float b){
         id = a;
