@@ -14,6 +14,7 @@ int main(){
     //     i++;
     // }
 
+    
     // Pointers and arrays
 
     int* p = marks;
