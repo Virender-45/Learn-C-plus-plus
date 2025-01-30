@@ -3,21 +3,19 @@
 #include <string>
 using namespace std;
 
+int main()
+{
+    string str = "Virender Singh", str2;
 
-
-int main(){
-    string str = "Virender Singh" , str2;
-
-    //opeing file using constructor and writing it
+    // opeing file using constructor and writing it
     ofstream out("sample.txt");
-    out<<str;
+    out << str;
 
-    //opening file using constructor and reading it
+    // opening file using constructor and reading it
     ifstream in("sample2.txt");
-    // in>>str2;    //stop reading after spaces 
+    // in>>str2;    //stop reading after spaces
     getline(in, str2);
-    cout<<str2;
-
+    cout << str2;
 
     return 0;
 }
