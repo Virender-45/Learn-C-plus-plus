@@ -19,6 +19,7 @@ int main() {
     //in >> str;
     //getline(in, str);
 
+    //Use loop to display full file
     while (in.eof() == 0) {  //eof = End of file
         getline(in, str);
         cout << str << endl;
