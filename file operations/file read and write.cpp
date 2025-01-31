@@ -3,8 +3,7 @@
 #include <string>
 using namespace std;
 
-int main()
-{
+int main(){
     string str = "Virender Singh", str2;
 
     // opeing file using constructor and writing it
