@@ -34,13 +34,11 @@ protected:
     float salary;
 
 public:
-    Employee(string n, int a, int id, float s) : Person(n, a)
-    {
+    Employee(string n, int a, int id, float s) : Person(n, a){
         empid = id;
         salary = s;
     }
-    void display()
-    {
+    void display(){
         cout << "Details of employee" << endl;
         cout << "Id : " << empid << endl;
         cout << "Name : " << name << endl;
@@ -49,21 +47,18 @@ public:
     }
 };
 
-class Student : public Person
-{
+class Student : public Person{
 protected:
     int roll_no;
     float math_marks, physics_marks;
 
 public:
-    Student(string n, int a, int rn, float mm, float pm) : Person(n, a)
-    {
+    Student(string n, int a, int rn, float mm, float pm) : Person(n, a){
         roll_no = rn;
         math_marks = mm;
         physics_marks = pm;
     }
-    void display()
-    {
+    void display(){
         cout << "Details of Student" << endl;
         cout << "Roll No. : " << roll_no << endl;
         cout << "Name : " << name << endl;
@@ -72,12 +67,10 @@ public:
         cout << "Marks in physics : " << physics_marks << endl;
 
         float total = math_marks + physics_marks;
-        if (total >= 66)
-        {
+        if (total >= 66){
             cout << "Pass**" << endl;
         }
-        else
-        {
+        else{
             cout << "Fail!!" << endl;
         }
     }
