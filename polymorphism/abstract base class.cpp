@@ -28,8 +28,7 @@ public:
     virtual ~Person() {}
 };
 
-class Employee : public Person
-{
+class Employee : public Person{
 protected:
     int empid;
     float salary;
