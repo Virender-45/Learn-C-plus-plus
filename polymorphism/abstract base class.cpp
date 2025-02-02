@@ -76,8 +76,7 @@ public:
     }
 };
 
-int main()
-{
+int main(){
     string name = "Virender";
     int age = 21;
     int id = 1001;
