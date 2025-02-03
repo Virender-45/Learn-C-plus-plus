@@ -2,7 +2,8 @@
 using namespace std;
 
 template<class T1, class T2>
-class myClass{
+class myClass
+{
         T1 data1;
         T2 data2;
     public:
