@@ -14,7 +14,8 @@ class myClass{
         }
 };
 
-int main(){
+int main()
+{
     myClass<int, char> obj(1, 'v');
     obj.display();
 
