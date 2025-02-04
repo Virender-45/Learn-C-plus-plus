@@ -18,7 +18,10 @@ int main()
     int ele, size;
     // cout << "Enter the size of vector : ";
     // cin >> size;
-    vec.insert(vec.begin(), 3);
+
+    // vector<int> :: iterator iter = vec.begin();
+
+    vec.insert(vec.begin() , 4, 3); //To insert same element multiple times
     vec.insert(vec.begin(), 1);
     vec.insert(vec.begin(), 2);
 
@@ -32,7 +35,7 @@ int main()
         cout<< *(i) <<" ";
     }
 
-    // display(vec);
+
 
     return 0;
 }
