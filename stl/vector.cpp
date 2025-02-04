@@ -1,28 +1,38 @@
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
 
 using namespace std;
 
-int main(){
-    vector<int> vec = {1, 2, 3, 4, 5};
-
-    // vec.insert(vec.begin() + 2, 10);
-    // vec.erase(vec.begin() + 2, vec.begin() + 4);
-    // vec.clear();  it erase the data but capacity remains
-    // vec.empty();
-
-    //Print with foreach loop
-    for(int i : vec){
-        cout<< i <<" ";
+void display(vector<int> &v)
+{
+    for (int i = 0; i < v.size(); i++)
+    {
+        cout << v[i] << " ";
     }
+}
 
-    //Print with for loop
-    //vector<int>::iterator i; can be write as auto
+int main()
+{
+
+    vector<int> vec;
+    int ele, size;
+    // cout << "Enter the size of vector : ";
+    // cin >> size;
+    vec.insert(vec.begin(), 3);
+    vec.insert(vec.begin(), 1);
+    vec.insert(vec.begin(), 2);
+
+    // for (int i = 0; i < size; i++)
+    // {
+    //     cout << "Enter vector element : ";
+    //     cin >> ele;
+    //     vec1.push_back(ele);
+    // }
     for(auto i = vec.begin(); i != vec.end(); i++){
         cout<< *(i) <<" ";
     }
-    for(auto i = vec.rbegin(); i != vec.rend(); i++){
-        cout<< *(i) <<" ";
-    }
-  return 0;
+
+    // display(vec);
+
+    return 0;
 }
