@@ -1,8 +1,4 @@
 #include<iostream>
-#include<deque>
-#include<stack>
-#include <thread>
-#include <queue>
 #include <map>
 #include <unordered_map>
 
@@ -10,6 +6,10 @@ using namespace std;
 
 
 int main(){
+    
+
+
+    //Map is an associative array
     //(key, value) Key is always unique
     /*map<string, int> m;       //Store data in order way
 
@@ -59,7 +59,7 @@ int main(){
     }
     */
 
-
+   /*
    //unordered_map
 
    unordered_map<string, int> um;   //Store data into unorder way
@@ -73,6 +73,7 @@ int main(){
     for(auto p : um){
         cout<< p.first << " "<<p.second<<endl;
     }
+    */
 
     return 0;
 }
