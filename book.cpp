@@ -1,7 +1,8 @@
 /*
  * Defines a struct called Book with members: title, author, price.
  * Dynamically allocates memory for an array of Book.
- * Allows the user to input details for each book and print them */
+ * Allows the user to input details for each book and print them
+*/
 
 #include <iostream>
 
