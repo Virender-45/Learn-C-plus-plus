@@ -13,7 +13,6 @@ int main(){
     //     cout<<marks[i]<<endl;
     //     i++;
     // }
-
     
     // Pointers and arrays
 
