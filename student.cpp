@@ -10,8 +10,7 @@ Write a program that creates an array of Student and prints the average marks fo
 
 using namespace std;
 
-typedef struct Student
-{
+typedef struct Student{
     string name;
     int rollNo;
     float marks[3];
