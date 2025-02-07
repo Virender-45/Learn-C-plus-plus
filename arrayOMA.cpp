@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Shop
-{
+class Shop{
     int itemId[100];
     int itemPrice[100];
     int counter = 0;
