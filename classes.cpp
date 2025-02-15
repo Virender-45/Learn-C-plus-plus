@@ -25,11 +25,16 @@ public:
 }
 
 int main(){
-    Employee virender;
+    Employee virender, sahil;
     virender.d = 4;
     virender.e = 5;
     virender.setData(1,2,3);
     virender.getData();
+
+    sahil.d = 3;
+    sahil.e = 4;
+    sahil.setData(1,3,5);
+    sahil.getData();
 
     return 0;
 }
