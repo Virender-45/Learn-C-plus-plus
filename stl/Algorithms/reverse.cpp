@@ -20,12 +20,20 @@ int main()
     //Add Permutation
 
     string s = "abc";
-    string s = "def";
+    string s1 = "def";
 
 
     for(int i = 0; i < 100; i++){
     next_permutation(s.begin(), s.end());
         cout<< s << "\t";
+    }
+    for(int i = 0; i < 100; i++){
+    next_permutation(s.begin(), s.end());
+        cout<< s << "\t";
+    }
+    for(int i = 0; i < 100; i++){
+    next_permutation(s1.begin(), s1.end());
+        cout<< s1 << "\t";
     }
     
     return 0;
