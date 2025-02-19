@@ -20,6 +20,7 @@ int main()
     //Add Permutation
 
     string s = "abc";
+    string s = "def";
 
 
     for(int i = 0; i < 100; i++){
