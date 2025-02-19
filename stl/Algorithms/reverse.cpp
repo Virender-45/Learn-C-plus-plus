@@ -1,12 +1,4 @@
 #include <iostream>
-#include <deque>
-#include <stack>
-#include <thread>
-#include <queue>
-#include <map>
-#include <unordered_map>
-#include <unordered_set>
-#include <set>
 #include <algorithm>
 
 using namespace std;
