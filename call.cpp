@@ -2,7 +2,8 @@
 
 using namespace std;
 
-void swap(int a, int b){ //This function not works
+void swap(int a, int b)
+{ //This function not works
     int temp = a;
     a = b;
     b = temp;
