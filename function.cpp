@@ -5,8 +5,7 @@ using namespace std;
 int sum(int, int);
 void greet();
 
-int main()
-{
+int main(){
     greet();
     int num1, num2;
     cout << "Enter first number : ";
