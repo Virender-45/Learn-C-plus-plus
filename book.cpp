@@ -8,15 +8,13 @@
 
 using namespace std;
 
-struct Book
-{
+struct Book{
     string title;
     string author;
     float price;
 };
 
-int main()
-{
+int main(){
     int n;
 
     cout << "Enter the number of books : ";
