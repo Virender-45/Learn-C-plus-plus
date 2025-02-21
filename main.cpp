@@ -23,7 +23,7 @@ int main()
     // cout<<"x is "<<x<<endl;
     // cout<<"y is "<<y<<endl;
 
-    // Typecasting
+    Typecasting
 
     // int a = 10;
     // float b = 10.11f;
