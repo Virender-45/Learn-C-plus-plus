@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-class Complex{
+class Complex
+{
     int a,b;
     public:
         //Creating a constructor, it is a special member function tith same name as class
