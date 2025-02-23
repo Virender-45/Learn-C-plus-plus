@@ -3,7 +3,8 @@
 
 using namespace std;
 
-class Person{
+class Person
+{
 protected:
     string name;
     int age;
