@@ -19,7 +19,7 @@ public:
 
 
 
-    // virtual void display()
+    // virtual void display() 
     // {
     //     cout << "Person details: " << endl;
     //     cout << "Name: " << name << ", Age: " << age << endl;
