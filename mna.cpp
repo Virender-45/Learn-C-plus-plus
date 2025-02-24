@@ -9,8 +9,7 @@ Write a program that:
 
 using namespace std;
 
-int main()
-{
+int main(){
     int size;
     cout << "Enter the size of array : ";
     cin >> size;
