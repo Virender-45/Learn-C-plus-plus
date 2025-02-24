@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Y;
+class Y; //To tell compiler that a class with name Y exists
 
 class X{
     int data;
