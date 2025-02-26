@@ -20,11 +20,11 @@ int main(){
     // Complex *ptr = &c1;
     Complex *ptr = new Complex;
 
-    // c1.setData(1, 2);
-    // c1.dispplay();
+    c1.setData(1, 2);
+    c1.dispplay();
 
-    // (*ptr).setData(11, 22);
-    // (*ptr).display();
+    (*ptr).setData(11, 22);
+    (*ptr).display();
 
     ptr->setData(1, 4);
     ptr->display();
