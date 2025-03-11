@@ -4,7 +4,8 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
     deque<int> d = {1, 2, 3, 4, 5};   //Inititialize as dynamic array in memory , random access is possible in deque
     //Same functions as list
 
