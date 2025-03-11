@@ -5,8 +5,7 @@
 using namespace std;
 
 template <class T>
-void display(list<T> &lst)
-{
+void display(list<T> &lst){
     list<int>::iterator itr;
     for (itr = lst.begin(); itr != lst.end(); itr++)
     {
