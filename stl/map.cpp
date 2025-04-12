@@ -86,5 +86,26 @@ int main()
         cout << (*iter).first << " " << (*iter).second << endl;
     }
 
+    std::unordered_map<int, std::string> product;
+        std::unordered_map<std::string, int> productInfo;
+
+        product[1] = "Camera";
+        product[2] = "Phone";
+        product[3] = "Tablet";
+        product[4] = "Computer";
+        product[5] = "Mobile";
+        product[6] = "Fan";
+
+        productInfo[product[1]] = 101;
+        productInfo[product[2]] = 102;
+        productInfo[product[3]] = 103;
+        productInfo[product[4]] = 104;
+        productInfo[product[5]] = 105;
+        productInfo[product[5]] = 106;
+
+        for(auto& var : productInfo){
+            std::cout<<var.first << " - " << var.second << std::endl;
+        }
+
     return 0;
 }
