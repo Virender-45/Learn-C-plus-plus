@@ -107,5 +107,25 @@ int main()
             std::cout<<var.first << " - " << var.second << std::endl;
         }
 
+
+    std::unordered_map<int, std::string> product;
+        std::unordered_map<std::string, int> productInfo;
+
+        int n;
+        std::cout<<"How many products you want to add : ";
+        std::cin>>n;
+
+        for (int i = 1; i < n + 1; i++){
+            std::string name;
+            std::cout<<"Enter product name : ";
+            std::cin>>name;
+
+            product.insert({i, name});
+        }
+
+        for(auto& var : product){
+            std::cout<<var.first << " - " << var.second << std::endl;
+        }
+
     return 0;
 }
