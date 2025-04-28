@@ -21,5 +21,24 @@ int main()
 
     cout<<sum;
 
+
+    //check for prime number
+
+    int n = 0;
+    int r;
+
+    cout<<"Enter to check number is prime or not : ";
+    cin>>n;
+
+    for (int i = 2; i < n; i++)
+    {
+        r = n%i;
+        if(r == 0){
+            cout<<"Number is not prime";
+            exit(0);
+        }
+    }
+    cout<<"Number is prime";
+
     return 0;
 }
