@@ -24,21 +24,21 @@ int main()
 
     //check for prime number
 
-    int n = 0;
-    int r;
+    int n = 12;
+    bool isPrime = true;
 
-    cout<<"Enter to check number is prime or not : ";
-    cin>>n;
-
-    for (int i = 2; i < n; i++)
-    {
-        r = n%i;
-        if(r == 0){
-            cout<<"Number is not prime";
-            exit(0);
+    for(int  i = 2; i*i <= n; i++){
+        if(n % i == 0) {
+            isPrime = false;
+            break;
         }
     }
-    cout<<"Number is prime";
+
+    if(isPrime){
+        cout<<"Prime Number";
+    }else{
+        cout<<"Not Prime Number";
+    }
 
 
     //factorial
