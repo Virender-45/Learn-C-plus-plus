@@ -18,5 +18,37 @@ int main()
         cout<<endl;
     }
 
+
+
+    // square pattern for n = 4
+    //required output
+  /*1 2 3 4
+    1 2 3 4
+    1 2 3 4
+    1 2 3 4*/
+
+    int n = 4;
+
+    for (int i = 1; i <= n; i++){//outer
+        for(int j = 1; j <= n; j++){//inner
+            cout << j << " ";
+        }
+        cout<<endl;
+    }
+	
+	//Alphabet pattern
+	int n = 9;
+
+    for (int i = 0; i < n; i++)
+    { // outer
+        char ch = 'A';
+        for (int j = 0; j < n; j++)
+        { // inner
+            cout<< ch << " ";
+            ch += 1;//65 + 1 => 66 i.e. 'B'
+        }
+        cout << endl;
+    }
+    
     return 0;
 }
